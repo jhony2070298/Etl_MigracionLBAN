@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Administrador de conexiones HTTP"
+  DTS:DTSID="{CBF5F056-65CC-4A9F-B8DA-1F951FCF002E}"
+  DTS:CreationName="HTTP">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="http://www.google.com/intl/en_com/images/srpr/logo1w.png">
+      <DTS:HttpConnection
+        DTS:ServerURL="http://www.google.com/intl/en_com/images/srpr/logo1w.png">
+        <DTS:Property
+          DTS:Name="ServerPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAREjwF3m7YEqcwkS5doU15wAAAAACAAAAAAAQZgAAAAEAACAAAAATtAhVmrQGvD9qvFx9BOSt/MlMIdFtmQwxOD3w9W0s3wAAAAAOgAAAAAIAACAAAACwwqUAcKTEnRbYjPvmG/oF2BaRkgpATvu28TkqdIlnhYAAAABVY21a4xTPEZVudaTa98hLJGzlUFdUNCyh19C3fz8YwTbWIeGDMWrW03XaRQOsDyIgSnh2iRB5KNXPBZagmpNNTz4wA6txouQBv5eMXxvaqzeDQdvxWYnVIYKDaOWNBYJpAsF+/L0vM9PLWxF6ljuroKd85esu88Z+a4WTAIiPw0AAAACB4/GfLp6yFgY6ed3U4Jwwp7fP/SqVht85sBZaQ8Dzw7YKo+1so3nhk5WI5Y6aFVR1X4Tpahi4cKXzcrYWBuf0</DTS:Property>
+        <DTS:Property
+          DTS:Name="ProxyPassword"
+          Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAREjwF3m7YEqcwkS5doU15wAAAAACAAAAAAAQZgAAAAEAACAAAACIXTfjRo24ldSD2n/iecy5fJjILQ16WRdcBirLPziwvQAAAAAOgAAAAAIAACAAAAC+QiDkdouq9q0LKMNAhEugqNkllAe7reDihXreCNzH1IAAAABNWJSsStkNvy3S//+ilAsfDn2PDlc3wg7sryTgl4l/nE33o7ecOCpVNlVVDMgWTOJoCEU28UhdGnXT9JKEmWYb98iVnbR0zE5NuWl4DPAgLtE6DUnXcUEpXwf+rUW9VTJchYdt9zZFV5oYSNn4krKh/c3ZCxP3KlIqib8n1C3Q6EAAAAB8iWsZJHAHn68KJsPQq0KyxYsl/lWwG8ISBDf8gOGdu/VTW0LIulK7aV5W2dWrde6nZWepiM616EaCkEXO87gF</DTS:Property>
+      </DTS:HttpConnection>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
